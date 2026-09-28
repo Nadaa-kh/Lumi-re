@@ -373,15 +373,17 @@ span{
 
     
     .navbar {
-        position: absolute;
+        position: fixed;
+        top: 10px;
         left: 10px;
         right: 10px;
-        margin: 10px;
+        margin: 0;
         padding: 15px;
+        z-index: 9999;
+        
         flex-direction: column;
         gap: 15px;
         text-align: center;
-        position: fixed;
     }
 
     .tit h1 {
