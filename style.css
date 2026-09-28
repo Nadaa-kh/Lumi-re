@@ -506,6 +506,7 @@ span{
         margin: auto;
         justify-content: center;
         display: flex;
+        align-items: center;
     }
 
 
