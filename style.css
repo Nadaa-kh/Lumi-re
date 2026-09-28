@@ -381,6 +381,7 @@ span{
         flex-direction: column;
         gap: 15px;
         text-align: center;
+        position: fixed;
     }
 
     .tit h1 {
