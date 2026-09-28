@@ -503,10 +503,9 @@ span{
     }
 
     .card button {
-        margin: auto;
-        justify-content: center;
-        display: flex;
-        align-items: center;
+        display: block;
+        width: 100px;
+        margin: 10px auto 0;
     }
 
 
