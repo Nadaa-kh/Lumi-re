@@ -309,11 +309,9 @@ span{
 
 
 
-/* =========================
-   RESPONSIVE DESIGN
-========================= */
 
-/* Tablet */
+
+
 @media (max-width: 900px) {
 
     .navbar {
@@ -362,9 +360,7 @@ span{
 }
 
 
-/* =========================
-   PHONE
-========================= */
+
 
 @media (max-width: 600px) {
 
@@ -375,7 +371,7 @@ span{
         
     }
 
-    /* Navbar */
+    
     .navbar {
         position: absolute;
         left: 10px;
@@ -401,7 +397,7 @@ span{
     }
 
 
-    /* Hero */
+    
     .mid {
         padding: 220px 20px 0;
         text-align: center;
@@ -416,7 +412,7 @@ span{
     }
 
 
-    /* Title */
+    
     .our {
         padding: 15px;
         text-align: center;
@@ -427,7 +423,7 @@ span{
     }
 
 
-    /* Categories */
+    
     .products {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -460,7 +456,7 @@ span{
     }
 
 
-    /* Discover */
+    
     .discov {
         flex-direction: column;
         gap: 10px;
@@ -478,7 +474,7 @@ span{
     }
 
 
-    /* Footer */
+    
     .foo {
         flex-direction: column;
         gap: 15px;
@@ -487,7 +483,7 @@ span{
     }
 
 
-    /* Cards */
+    
     .cards {
         gap: 20px;
         padding: 15px;
@@ -511,7 +507,7 @@ span{
     }
 
 
-    /* Contact / Info */
+    
     .info,
     .contact {
         width: 75%;
